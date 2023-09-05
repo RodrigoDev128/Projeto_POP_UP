@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto POP-UP | Rodrigo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <main>
+        <section class="form-box">
+
+            <form class="form" action="submit">
+                <h1>cadastro</h1>
+                <div class="nome-box">
+                    <label for="nome" id="nomelab">nome</label>
+                    <input name="nome" type="text" placeholder="Seu nome" id="nome">
+                </div>
+                <div class="email-box">
+                    <label for="email" id="emaillab">email</label>
+                    <input name="email" type="text" placeholder="Seu email" id="email">
+                </div>
+                <div class="idade-box">
+                    <label for="idade" id="idadelab">idade</label>
+                    <input name="idade" type="text" placeholder="Sua idade" id="idade">
+                </div>
+                
+                <button type="submit" id="btn">fazer cadastro</button>
+            </form>
+        </section>
+    </main>
+
+    <section class="popup">
+        <span class="material-symbols-outlined closepop" id="closepop">close</span>
+        <div class="popname" id="popname">
+            <h1>preencha o campo de nome</h1>
+        </div>
+
+        <div class="popemail" id="popemail">
+            <h1>preencha o campo de email</h1>
+        </div>
+
+        <div class="popidade" id="popidade">
+            <h1>preencha o campo de idade</h1>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
